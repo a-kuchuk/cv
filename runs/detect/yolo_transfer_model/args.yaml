@@ -13,9 +13,9 @@ cache: false
 device: '0'
 workers: 8
 project: null
-name: yolo_transfer_model
+name: yolo_transfer_model2
 exist_ok: false
-pretrained: true
+pretrained: false
 optimizer: auto
 verbose: true
 seed: 0
@@ -86,13 +86,13 @@ nbs: 64
 hsv_h: 0.015
 hsv_s: 0.7
 hsv_v: 0.4
-degrees: 0.0
-translate: 0.1
+degrees: 90
+translate: 0.2
 scale: 0.5
-shear: 0.0
+shear: 20
 perspective: 0.0
-flipud: 0.0
-fliplr: 0.5
+flipud: 1
+fliplr: 1
 bgr: 0.0
 mosaic: 1.0
 mixup: 0.0
@@ -103,4 +103,4 @@ auto_augment: randaugment
 erasing: 0.4
 cfg: null
 tracker: botsort.yaml
-save_dir: /home/cormac/cv/runs/detect/yolo_transfer_model
+save_dir: /home/cormac/cv/runs/detect/yolo_transfer_model2
